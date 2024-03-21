@@ -1,0 +1,2 @@
+dataset_path=/home/uav/dataset/kitti/00/velodyne/
+prefix=/home/uav/dataset/kitti/00_pcd/
