@@ -103,7 +103,7 @@ private:
 
 int main(int argc, char const *argv[])
 {
-    std::string config_path = "/home/uav/gicp_exp_tool_ws/config/config.txt";
+    std::string config_path = "/home/uav/exp_tool_ws/config/config.txt";
     std::unordered_map<std::string, std::string> configMap;
     ConfigLoader configloader(config_path);
     configloader.loader(configMap);

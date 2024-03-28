@@ -1,2 +1,7 @@
 dataset_path=/home/uav/dataset/kitti/00/velodyne/
 prefix=/home/uav/dataset/kitti/00_pcd/
+down_samping_v1=0.1
+down_samping_v2=0.25
+pcd_path=/home/uav/dataset/kitti/00_pcd/10.pcd
+save_filter1_path=/home/uav/dataset/kitti/00_afterfilter/filter10_1.pcd
+save_filter2_path=/home/uav/dataset/kitti/00_afterfilter/filter10_2.pcd
