@@ -12,6 +12,9 @@ include_directories("/usr/local/include/eigen3")
 # add_executable(binTpcd src/binTpcd.cpp)
 # target_link_libraries(binTpcd ${PCL_LIBRARIES})
 
-add_executable(double_filter src/double_filter.cpp)
-target_link_libraries(double_filter ${PCL_LIBRARIES})
+# add_executable(double_filter src/double_filter.cpp)
+# target_link_libraries(double_filter ${PCL_LIBRARIES})
+
+add_executable(registration_PCL src/registration_PCL.cpp)
+target_link_libraries(registration_PCL ${PCL_LIBRARIES})
 

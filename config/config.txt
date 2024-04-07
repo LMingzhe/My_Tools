@@ -1,4 +1,6 @@
 dataset_path=/home/uav/dataset/kitti/00/velodyne/
+save_path=/home/uav/nano_gicp_ws/result/ATE_compare_filter2/00/ndt_pcl.txt
+if_save_pose=1
 prefix=/home/uav/dataset/kitti/00_pcd/
 down_samping_v1=0.1
 down_samping_v2=0.25
